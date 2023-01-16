@@ -16,16 +16,16 @@ warehouse.sql: contains the star schema created
 # How to Copile
 Follow the below instructions in order:
 
-Step 1: Create the java project in eclipse using provided project file.
-Step 2: Add two external JAR files present in lib folder to your java project.
-Step 3: Create schema using Transactional _ MasterData Generator.sql file in mysql workbench.
-Step 4: Create star schema of warehouse using warehouse.sql in mysql workbench.
-Step 5: Compile the java project named warehouse (src/warehouse/*) which contains meshJoin code in connection.java file and main.java file.
+Step 1. Create the java project in eclipse using provided project file.
+Step 2. Add two external JAR files present in lib folder to your java project.
+Step 3. Create schema using Transactional _ MasterData Generator.sql file in mysql workbench.
+Step 4. Create star schema of warehouse using warehouse.sql in mysql workbench.
+Step 5. Compile the java project named warehouse (src/warehouse/*) which contains meshJoin code in connection.java file and main.java file.
 	Enter the below details when required. 
         Username: root
         Password: root
 	On entering correct details, the database will be connected and ETL process will start.
-Step 6: On completion of compilation, the star schema warehouse in mysql workbench will be populated.
-Step 7: Apply OLAP queries on the created warehouse schema using queries.sql file.
+Step 6. On completion of compilation, the star schema warehouse in mysql workbench will be populated.
+Step 7. Apply OLAP queries on the created warehouse schema using queries.sql file.
 
 

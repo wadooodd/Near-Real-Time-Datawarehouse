@@ -6,6 +6,7 @@ Metro is one of the biggest supermarkets and has many branches spreading across 
 The aim of this project is to create a data warehouse with 10,000 transaction records, 100 products and 50 customers. As the data from the transaction data is incomplete, we need to get some information from master data tables like details of product, supplier and customer. To do that we need to join the master data tables with transaction data and for joining we need to implement the extended Mesh Join algorithm. The MESHJOIN (Mesh Join) algorithm was introduced by Polyzotis in 2008 with objective of implementing the Stream- Relation join operation in the transformation phase of ETL. 
 
 ## File Information
+* Project-DS3003.pdf: contains detailed description of project
 * src: contains java code for implementation of mesh join
 * lib: contains external JAR files to validate imports in java code
 * projectReport: contains detailed project report and results achieved
